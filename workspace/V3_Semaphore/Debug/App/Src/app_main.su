@@ -1,0 +1,5 @@
+app_main.c:108:13:TouchTask	40	static
+app_main.c:92:13:WorkerTask	40	static
+app_main.c:81:13:HeartbeatTask	8	static
+app_main.c:54:13:CounterTask	40	static
+app_main.c:33:6:app_main	16	static

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;V4_Printf/V2_FreeRTOS_Intro.ioc&apos; to &apos;V4_Printf.ioc&apos;" description="Rename resource &apos;V2_FreeRTOS_Intro.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="V2_FreeRTOS_Intro.ioc" name="V4_Printf.ioc" stamp="1634068555990" updateReferences="true"/>
+</session>

@@ -1,0 +1,10 @@
+19:19:52 **** Incremental Build of configuration Debug for project V4_Printf ****
+make -j12 all 
+arm-none-eabi-size   V4_Printf.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40404	    204	  36972	  77580	  12f0c	V4_Printf.elf
+Finished building: default.size.stdout
+ 
+
+19:19:52 Build Finished. 0 errors, 0 warnings. (took 617ms)
+

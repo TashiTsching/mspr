@@ -1,0 +1,20 @@
+19:40:03 **** Incremental Build of configuration Debug for project V3_Semaphore2_withoutTS ****
+make -j12 all 
+arm-none-eabi-gcc "../App/Src/app_main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/fhnw/mspr/workspace/V3_Semaphore2_withoutTS/BSP/Inc" -I"C:/fhnw/mspr/workspace/V3_Semaphore2_withoutTS/App/Inc" -Og -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"App/Src/app_main.d" -MT"App/Src/app_main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "App/Src/app_main.o"
+arm-none-eabi-gcc -o "V3_Semaphore2_withoutTS.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\fhnw\mspr\workspace\V3_Semaphore2_withoutTS\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="V3_Semaphore2_withoutTS.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: V3_Semaphore2_withoutTS.elf
+ 
+arm-none-eabi-size   V3_Semaphore2_withoutTS.elf 
+arm-none-eabi-objdump -h -S  V3_Semaphore2_withoutTS.elf  > "V3_Semaphore2_withoutTS.list"
+arm-none-eabi-objcopy  -O binary  V3_Semaphore2_withoutTS.elf  "V3_Semaphore2_withoutTS.bin"
+   text	   data	    bss	    dec	    hex	filename
+  40032	    200	  36968	  77200	  12d90	V3_Semaphore2_withoutTS.elf
+Finished building: default.size.stdout
+ 
+Finished building: V3_Semaphore2_withoutTS.bin
+ 
+Finished building: V3_Semaphore2_withoutTS.list
+ 
+
+19:40:05 Build Finished. 0 errors, 0 warnings. (took 1s.653ms)
+

@@ -2,3 +2,5 @@ Add everything
 	git add . 
 
 
+Commit 
+	git commit -m "asdfasdfasdfasdf"
